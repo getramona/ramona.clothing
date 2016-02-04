@@ -1,0 +1,35 @@
+---
+title: Ramona
+url: http://ramona.clothing
+timezone: America/New_York
+collections:
+  people:
+    title: People
+    output: true
+    test_lists:
+    - 
+    - Key 1:
+        Key 1: 
+    test:
+      test: bar
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+gems:
+- jekyll-sitemap
