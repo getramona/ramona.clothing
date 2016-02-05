@@ -1,0 +1,9 @@
+.index {
+  margin-bottom: $v * 6;
+  margin-top: $v * 3;
+  text-align: center;
+
+  &__hero {
+    margin-bottom: $v;
+  }
+}

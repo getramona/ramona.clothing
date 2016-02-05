@@ -1,0 +1,12 @@
+.button {
+  background: $color-true-gray-an3;
+  border: none;
+  color: $color-white;
+  padding: ($v / 2) $v;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-base;
+
+  &--magenta {
+    background: $color-magenta;
+  }
+}

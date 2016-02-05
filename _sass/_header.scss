@@ -1,0 +1,20 @@
+.header {
+  background: $color-gray-an3;
+  padding: $v 0;
+
+  &__logo {
+    @include span(3 of 12);
+
+    color: $color-text;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-2;
+
+    &:hover {
+      color: $color-magenta;
+    }
+  }
+
+  nav {
+    @include span(last 9 of 12);
+  }
+}

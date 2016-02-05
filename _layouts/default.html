@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="generator" content="Siteleaf, http://siteleaf.com" />
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="canonical" href="{{ permalink }}" />
+    <link rel="alternate" type="application/rss+xml" href="{{ site.feed_url }}" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/application.css" />
+
+    <script src="https://use.typekit.net/dvg5gfi.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="row">
+        <a class="header__logo" href="/">Ramona</a>
+        <nav class="header__nav nav">
+          <ul class="nav__list">
+            {% assign pages = site.pages | sort:"weight" %}
+            {% for page in pages %}
+              {% if page.title and page.title != "Index" %}
+                <li class="nav__item"><a class="nav__link" href="{{ page.url }}">{{ page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" role="main">
+      {{ content }}
+    </main>
+    <footer class="footer">
+      <p>&copy; {{ site.time | date: '%Y' }} <a href="http://bienstudio.co">Bien Studio</a>.</p>
+    </footer>
+  </body>
+</html>

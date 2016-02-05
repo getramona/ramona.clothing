@@ -1,0 +1,14 @@
+.nav {
+  &__list {
+    float: right;
+  }
+
+  &__item {
+    display: inline-block;
+    list-style-type: none;
+
+    & + & {
+      margin-left: $v;
+    }
+  }
+}

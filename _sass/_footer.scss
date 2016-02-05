@@ -1,0 +1,8 @@
+.footer {
+  @include container;
+
+  border-top: 1px solid $color-true-gray-an2;
+  padding-top: $v;
+  margin-bottom: $v;
+  margin-top: ($v * 2);
+}
