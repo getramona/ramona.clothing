@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h2 class="page__title">{{ page.title }}</h2>
+  <div class="page__content">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Service</th>
+          <th>Purpose</th>
+          <th class="right">Cost</th>
+          <th class="right">Total Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for service in page.services %}
+          <tr>
+            <td><a href="{{ service.url }}">{{ service.title }}</a></td>
+            <td>{{ service.purpose }}</td>
+            <td class="right">{{ service.period_cost }}/{{ service.period }}</td>
+            <td class="right">{{ service.total_cost }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+      <tfoot>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="right">{{ page.totals.monthly }}/monthly</td>
+          <td class="right"><strong>{{ page.totals.total }}</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</div>

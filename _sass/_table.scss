@@ -1,0 +1,21 @@
+.table {
+  width: 100%;
+
+  thead {
+    border-bottom: 1px solid $color-gray-an3;
+    font-weight: $font-weight-medium;
+  }
+
+  tfoot {
+    border-top: 3px solid $color-gray-an3;
+  }
+
+  td, th {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    &.right {
+      text-align: right;
+    }
+  }
+}

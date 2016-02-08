@@ -16,5 +16,7 @@
 
   nav {
     @include span(last 9 of 12);
+
+    font-size: $font-size-n1;
   }
 }

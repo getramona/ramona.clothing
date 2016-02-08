@@ -2,7 +2,16 @@
   @include container;
 
   border-top: 1px solid $color-true-gray-an2;
+  color: $color-true-gray-an1;
   padding-top: $v;
   margin-bottom: $v;
-  margin-top: ($v * 2);
+  margin-top: ($v * 4);
+
+  a {
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
