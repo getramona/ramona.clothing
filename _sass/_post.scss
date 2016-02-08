@@ -21,4 +21,8 @@
 
     text-align: justify;
   }
+
+  & + & {
+    margin-top: $v * 2;
+  }
 }
