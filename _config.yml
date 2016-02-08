@@ -7,9 +7,9 @@ collections:
     title: People
     output: true
     test_lists:
-    -
+    - 
     - Key 1:
-        Key 1:
+        Key 1: 
     test:
       test: bar
   posts:
