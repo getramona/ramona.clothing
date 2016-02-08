@@ -7,9 +7,9 @@ collections:
     title: People
     output: true
     test_lists:
-    - 
+    -
     - Key 1:
-        Key 1: 
+        Key 1:
     test:
       test: bar
   posts:
@@ -33,3 +33,4 @@ defaults:
 permalink: pretty
 gems:
 - jekyll-sitemap
+google_analytics: UA-73528402-1
