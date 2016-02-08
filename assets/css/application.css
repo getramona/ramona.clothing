@@ -118,6 +118,7 @@ p + p { margin-top: 1.625rem; }
 .post__title { font-size: 1.5em; font-weight: 500; text-align: center; }
 .post__title:after { content: "—"; color: rgba(65, 65, 65, 0.1); display: block; padding: 0.8125rem 0; }
 .post__content { padding-left: 8.49057%; width: 83.01887%; float: left; margin-right: 1.88679%; padding-right: 8.49057%; text-align: justify; }
+.post + .post { margin-top: 3.25rem; }
 
 .page { max-width: 53em; margin-left: auto; margin-right: auto; }
 .page:after { content: " "; display: block; clear: both; }
