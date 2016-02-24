@@ -9,3 +9,5 @@ There still have been no responses to the surveys we sent out, therefore we are 
 ![Screen Shot 2016-02-24 at 12.03.04 PM.png](/uploads/Screen%20Shot%202016-02-24%20at%2012.03.04%20PM.png)
 
 I will also be working on making information for sheets on the site, such as measurements for spec sheets and what they should look like for different garments.
+
+Due to worries about money being a restrictive factor, there is an active search for grants.
