@@ -1,0 +1,6 @@
+---
+title: Week of 7 March 2016
+date: 2016-03-07 09:57:00 -05:00
+---
+
+This week data modeling for the database was completed. I was able to generate [a new entity relationship diagram](https://github.com/getramona/ramona/blob/4268db111b0322f834c995248b4b5c1a65e17b4b/erd.pdf) to show the final set up of the database. I've also started creating access policies to ensure only certain people have access to certain objects.
