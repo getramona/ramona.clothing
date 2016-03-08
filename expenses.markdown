@@ -8,7 +8,7 @@ services:
   purpose: Business communications, email
   period_cost: "$8"
   period: month
-  total_cost: "$66.59"
+  total_cost: "$16.59"
 - title: Hover
   url: https://hover.com
   purpose: Domain registration
