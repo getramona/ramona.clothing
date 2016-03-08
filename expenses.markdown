@@ -17,7 +17,7 @@ services:
   total_cost: "$13.17"
 totals:
   monthly: "$9.08"
-  total: "$21.76"
+  total: "$29.76"
 layout: expenses
 ---
 
