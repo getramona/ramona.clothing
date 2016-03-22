@@ -16,31 +16,54 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
             
             
-              
             
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+            
+              
+                <li class="nav__item">
+                  <a class="nav__link nav__link--active" href="/journal/">Journal</a>
+                </li>
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/expenses/">Expenses</a></li>
+                <li class="nav__item">
+                  <a class="nav__link " href="/expenses/">Expenses</a>
+                </li>
               
             
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">
-      <div class="post">
-  <h2 class="post__title"><a href="">Week of 7 March 2016</a></h2>
+      
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-7-march-2016/">Week of 7 March 2016</a>
+    </h2>
+    <span class="post__date">March 7, 2016</span>
+  </div>
   <div class="post__content">
     <p>This week data modeling for the database was completed. I was able to generate <a href="https://github.com/getramona/ramona/blob/4268db111b0322f834c995248b4b5c1a65e17b4b/erd.pdf">a new entity relationship diagram</a> to show the final set up of the database. I’ve also started creating access policies to ensure only certain people have access to certain objects.</p>
 

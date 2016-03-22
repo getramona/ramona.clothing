@@ -16,31 +16,54 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
             
             
-              
             
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+            
+              
+                <li class="nav__item">
+                  <a class="nav__link nav__link--active" href="/journal/">Journal</a>
+                </li>
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/expenses/">Expenses</a></li>
+                <li class="nav__item">
+                  <a class="nav__link " href="/expenses/">Expenses</a>
+                </li>
               
             
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">
-      <div class="post">
-  <h2 class="post__title"><a href="">Hello, world!</a></h2>
+      
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/hello-world/">Hello, world!</a>
+    </h2>
+    <span class="post__date">January 6, 2016</span>
+  </div>
   <div class="post__content">
     <p>This is a new site for Ramona to document our progress and expenses along the way. Ramona is currently in the beginning stages, but as it gets built, we’ll add more!</p>
 

@@ -16,26 +16,42 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
             
             
-              
             
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+            
+              
+                <li class="nav__item">
+                  <a class="nav__link " href="/journal/">Journal</a>
+                </li>
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/expenses/">Expenses</a></li>
+                <li class="nav__item">
+                  <a class="nav__link nav__link--active" href="/expenses/">Expenses</a>
+                </li>
               
             
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">

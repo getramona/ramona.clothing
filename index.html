@@ -16,34 +16,71 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
             
             
-              
             
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+            
+              
+                <li class="nav__item">
+                  <a class="nav__link " href="/journal/">Journal</a>
+                </li>
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/expenses/">Expenses</a></li>
+                <li class="nav__item">
+                  <a class="nav__link " href="/expenses/">Expenses</a>
+                </li>
               
             
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">
       <div class="index">
-  <h1 class="index__hero">Fashion collaboration made simple.</h1>
-  <p>Designing a garment and getting it into production is stuck in the 20th century. Fix that with Ramona.</p>
-  <p><button class="button button--magenta button--disabled" disabled>Coming in June</button></p>
+  <div class="index__hero">
+    <h1 class="index__header">Fashion collaboration made simple.</h1>
+    <p>Designing a garment and getting it into production is stuck in the 20th century. Fix that with Ramona.</p>
+    <p><button class="button button--magenta button--disabled" disabled="">Coming in June</button></p>
+  </div>
+  <div class="index__features">
+    <section class="feature">
+      <h3 class="feature__header">See what your team is working on</h3>
+      <p class="feature__description">Ramona makes it easy for you to check in and see everyone's progress</p>
+    </section>
+    <section class="feature">
+      <h3 class="feature__header">Watch your garments develop over time</h3>
+      <p class="feature__description">Use version control to see how your garments evolve, step-by-step</p>
+    </section>
+    <section class="feature">
+      <h3 class="feature__header">Share your work with others</h3>
+      <p class="feature__description">Easily show your coworkers what you're working on</p>
+    </section>
+    <section class="feature">
+      <h3 class="feature__header">Easy handoff to production</h3>
+      <p class="feature__description">Automatically generates line sheets</p>
+    </section>
+  </div>
 </div>
+
 
     </main>
     <footer class="footer">
