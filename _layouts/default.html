@@ -16,18 +16,32 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
-            {% assign pages = site.pages | sort:"weight" %}
+            {% assign pages = site.pages | sort:"position" %}
+            {% assign current_page = page.url %}
             {% for page in pages %}
               {% if page.title and page.title != "Index" %}
-                <li class="nav__item"><a class="nav__link" href="{{ page.url }}">{{ page.title }}</a></li>
+                <li class="nav__item">
+                  <a class="nav__link {% if current_page contains page.url %}nav__link--active{% endif %}" href="{{ page.url }}">{{ page.title }}</a>
+                </li>
               {% endif %}
             {% endfor %}
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">

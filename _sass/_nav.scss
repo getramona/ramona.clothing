@@ -1,14 +1,40 @@
 .nav {
+  display: inline-block;
+  height: $font-size-1;
+  line-height: $font-size-1;
+
+  &--left {
+    @include span(6 of 12);
+  }
+
+  &--right {
+    @include span(last 6 of 12);
+
+    position: relative;
+    text-align: right;
+    top: 1px;
+  }
+
   &__list {
-    float: right;
+    display: inline-block;
+    margin-left: 0;
   }
 
   &__item {
     display: inline-block;
     list-style-type: none;
+    line-height: $font-size-1;
 
     & + & {
-      margin-left: $v;
+      margin-left: $v / 2;
+    }
+  }
+
+  &__link {
+    color: $color-gray-a0;
+
+    &--active {
+      color: $color-true-gray-a2;
     }
   }
 }

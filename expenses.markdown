@@ -1,7 +1,7 @@
 ---
 title: Expenses
 date: 2016-02-04 10:25:00 -05:00
-weight: 2
+position: 2
 services:
 - title: Google Apps
   url: https://apps.google.com/

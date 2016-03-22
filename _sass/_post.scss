@@ -1,28 +1,42 @@
 .post {
   @include container;
 
-  &__title {
-    font-size: $font-size-3;
-    font-weight: $font-weight-medium;
-    text-align: center;
+  padding: ($v * 3) 0;
 
-    &:after {
-      content: "—";
-      color: $color-true-gray-an2;
-      display: block;
-      padding: ($v / 2) 0;
+  &__sidebar {
+    @include span(4 of 12);
+  }
+
+  &__title {
+    font-size: $font-size-2;
+    font-weight: $font-weight-medium;
+    margin-bottom: $v;
+
+    a {
+      color: $color-text;
+
+      &:hover {
+        color: $color-magenta;
+      }
     }
   }
 
-  &__content {
-    @include prefix(1 of 12);
-    @include span(10 of 12);
-    @include suffix(1 of 12);
+  &__date {
+    color: $color-gray-an1;
+    font-size: $font-size-n1;
+  }
 
-    text-align: justify;
+  &__content {
+    @include span(last 8 of 12);
+
+    color: $color-gray-a2;
+
+    p {
+      margin-bottom: $v;
+    }
   }
 
   & + & {
-    margin-top: $v * 2;
+    border-top: 1px solid $color-gray-an2;
   }
 }

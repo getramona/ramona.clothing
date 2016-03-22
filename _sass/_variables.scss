@@ -1,5 +1,6 @@
 $font-family-sans-serif: "aktiv-grotesk", Helvetica Neue, Helvetica, Arial, sans-serif;
 // $font-family-sans-serif: "acumin-pro", Helvetica Neue, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "usual", Helvetica Neue, Helvetica, Arial, sans-serif;
 
 $font-size-n1: 0.9em;
 $font-size-base: 16px;
@@ -22,6 +23,7 @@ $v: ($font-size-0 / 1em) * $line-height-base * 1rem;
 $color-white: #fdfdfd;
 $color-text: #2d4154;
 $color-purple: #44018D;
+$color-tan: #F4F1EC;
 
 $color-blue:       #0091E5;
 $color-blue-light: lighten($color-blue, 10%);

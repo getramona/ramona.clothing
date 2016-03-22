@@ -1,17 +1,13 @@
 .page {
   @include container;
 
+  padding: ($v * 3) 0;
+
   &__title {
+    margin-bottom: $v;
     font-size: $font-size-3;
     font-weight: $font-weight-medium;
     text-align: center;
-
-    &:after {
-      content: "—";
-      color: $color-true-gray-an2;
-      display: block;
-      padding: ($v / 2) 0;
-    }
   }
 
   &__content {

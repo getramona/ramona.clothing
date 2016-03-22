@@ -16,40 +16,195 @@
   </head>
   <body>
     <header class="header">
-      <div class="row">
-        <a class="header__logo" href="/">Ramona</a>
-        <nav class="header__nav nav">
+      <div class="row header__row">
+        <nav class="header__nav nav nav--left">
+          <a class="header__logo" href="/">Ramona</a>
           <ul class="nav__list">
             
             
-              
             
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/journal/">Journal</a></li>
+            
+              
+                <li class="nav__item">
+                  <a class="nav__link nav__link--active" href="/journal/">Journal</a>
+                </li>
               
             
               
-                <li class="nav__item"><a class="nav__link" href="/expenses/">Expenses</a></li>
+                <li class="nav__item">
+                  <a class="nav__link " href="/expenses/">Expenses</a>
+                </li>
               
             
           </ul>
         </nav>
+        <nav class="header__nav nav nav--right">
+          <ul class="nav__list">
+            <!-- <li class="nav__item">
+              <a class="nav__link" href="#">Login</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Join</a>
+            </li> -->
+          </ul>
+        </nav>
+        <div style='clear:both'></div>
       </div>
     </header>
     <main class="main" role="main">
       
-  <div class="post">
-  <h2 class="post__title"><a href="/posts/test-post/">Test post</a></h2>
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-7-march-2016/">Week of 7 March 2016</a>
+    </h2>
+    <span class="post__date">March 7, 2016</span>
+  </div>
   <div class="post__content">
-    <p>Cosmic ocean hundreds of thousands billions upon billions science trillion encyclopaedia galactica billions upon billions encyclopaedia galactica, cosmic fugue at the edge of forever inconspicuous motes of rock and gas network of wormholes, hundreds of thousands. Decipherment Euclid ship of the imagination. Kindling the energy hidden in matter laws of physics, hearts of the stars Sea of Tranquility birth bits of moving fluff inconspicuous motes of rock and gas? Birth how far away.</p>
+    <p>This week data modeling for the database was completed. I was able to generate <a href="https://github.com/getramona/ramona/blob/4268db111b0322f834c995248b4b5c1a65e17b4b/erd.pdf">a new entity relationship diagram</a> to show the final set up of the database. I’ve also started creating access policies to ensure only certain people have access to certain objects.</p>
 
-<p>Galaxies, from which we spring! Euclid intelligent beings, circumnavigated something incredible is waiting to be known, extraordinary claims require extraordinary evidence tendrils of gossamer clouds Cambrian explosion, corpus callosum, science vanquish the impossible, laws of physics as a patch of light tesseract Apollonius of Perga! Dispassionate extraterrestrial observer, of brilliant syntheses brain is the seed of intelligence courage of our questions inconspicuous motes of rock and gas.</p>
+  </div>
+</div>
 
-<p>Trillion. Encyclopaedia galactica, muse about science. Birth stirred by starlight, rogue across the centuries with pretty stories for which there’s little good evidence preserve and cherish that pale blue dot, worldlets, rich in heavy atoms across the centuries dream of the mind’s eye hydrogen atoms circumnavigated inconspicuous motes of rock and gas citizens of distant epochs, at the edge of forever Vangelis. Rich in heavy atoms star stuff harvesting star light, science? Astonishment dream of the mind’s eye trillion hearts of the stars brain is the seed of intelligence extraplanetary.</p>
 
-<p>Galaxies, emerged into consciousness, trillion hearts of the stars. Realm of the galaxies inconspicuous motes of rock and gas a still more glorious dawn awaits hundreds of thousands birth extraplanetary? Cosmic ocean decipherment Flatland. Something incredible is waiting to be known are creatures of the cosmos the sky calls to us paroxysm of global death shores of the cosmic ocean gathered by gravity laws of physics made in the interiors of collapsing stars billions upon billions Drake Equation, tingling of the spine! Consciousness something incredible is waiting to be known how far away, at the edge of forever made in the interiors of collapsing stars, vastness is bearable only through love and billions upon billions upon billions upon billions upon billions upon billions upon billions.</p>
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-28-part-2/">Week of February 28 Part 2</a>
+    </h2>
+    <span class="post__date">February 29, 2016</span>
+  </div>
+  <div class="post__content">
+    <p><img src="/uploads/Screen%20Shot%202016-02-29%20at%201.39.28%20PM.png" alt="Screen Shot 2016-02-29 at 1.39.28 PM.png" /></p>
+
+<p>This is how the site will basically function and how the pages will interact with each other. M stands for multiple and O stands for one meaning for example, an Organization can have multiple calendars but a Calendar can only belong to one organization.</p>
+
+<p>Garments will also have attributes such as stage of development and if a garment has been approved at whatever stage.</p>
+
+<p><img src="/uploads/Screen%20Shot%202016-02-28%20at%2011.58.35%20PM.png" alt="Screen Shot 2016-02-28 at 11.58.35 PM.png" />
+This another version of the logo which has been simplified with a larger face.</p>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-28-part-1/">Week of February 28 (Part 1)</a>
+    </h2>
+    <span class="post__date">February 29, 2016</span>
+  </div>
+  <div class="post__content">
+    <p>This week was one of more development. Points of measure are ready for when the spec sheet forms are created online. There has been page layout development as well as an overall structure of the site.</p>
+
+<p>On the development side, more work was done with data modeling, access control, and with application-specific business logic.</p>
+
+<p>Part 2 will have images for progress.</p>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-21/">Week of February 21</a>
+    </h2>
+    <span class="post__date">February 24, 2016</span>
+  </div>
+  <div class="post__content">
+    <p>There still have been no responses to the surveys we sent out, therefore we are moving forward without them. This week I will be working on making diagrams for how the site will work. I will also work on the layout of the site, and edit the current logo iteration, trying to make it clearer.</p>
+
+<p><img src="/uploads/Screen%20Shot%202016-02-24%20at%2012.03.04%20PM.png" alt="Screen Shot 2016-02-24 at 12.03.04 PM.png" /></p>
+
+<p>I will also be working on making information for sheets on the site, such as measurements for spec sheets and what they should look like for different garments.</p>
+
+<p>Due to worries about money being a restrictive factor, there is an active search for grants.</p>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-14th-2016/">Week of February 14th, 2016</a>
+    </h2>
+    <span class="post__date">February 15, 2016</span>
+  </div>
+  <div class="post__content">
+    <ul>
+  <li>We did more work on the logo and typeface selection.</li>
+  <li>No survey responses yet. Due to time constraints, we will go on without them.</li>
+  <li>Work on backend development continues.</li>
+</ul>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-7-2016/">Week of February 7, 2016</a>
+    </h2>
+    <span class="post__date">February 8, 2016</span>
+  </div>
+  <div class="post__content">
+    <p>No responses to questionnaire.</p>
+
+<p>New logo concept created.</p>
+
+<p><img src="/uploads/Screen Shot 2016-02-08 at 2.30.02 PM.png" alt="Screen Shot 2016-02-08 at 2.30.02 PM.png" /></p>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/week-of-february-1-2016/">Week of February 1, 2016</a>
+    </h2>
+    <span class="post__date">February 8, 2016</span>
+  </div>
+  <div class="post__content">
+    <p>This week, questionnaires were sent out to professors, students and to other contacts. We are hoping for responses by next week in order to continue development of site and functions for it to perform based on what we have heard back. 
+Logo development continues.</p>
+
+  </div>
+</div>
+
+
+  
+
+<div class="post">
+  <div class="post__sidebar">
+    <h2 class="post__title">
+      <a href="/journal/hello-world/">Hello, world!</a>
+    </h2>
+    <span class="post__date">January 6, 2016</span>
+  </div>
+  <div class="post__content">
+    <p>This is a new site for Ramona to document our progress and expenses along the way. Ramona is currently in the beginning stages, but as it gets built, we’ll add more!</p>
 
   </div>
 </div>
@@ -58,7 +213,18 @@
 
     </main>
     <footer class="footer">
-      <p>&copy; 2016 <a href="http://bienstudio.co">Bien Studio</a>.</p>
+      <p>&copy; 2016 <a href="/">Ramona</a>.</p>
     </footer>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73528402-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
   </body>
 </html>

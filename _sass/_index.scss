@@ -1,9 +1,38 @@
 .index {
-  margin-bottom: $v * 6;
-  margin-top: $v * 3;
   text-align: center;
 
-  &__hero {
+  h1 {
     margin-bottom: $v;
+  }
+
+  &__hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/uploads/hero.jpeg");
+    background-size: cover;
+    color: $color-white;
+    padding-bottom: $v * 6;
+    padding-top: $v * 6;
+  }
+
+  p + p {
+    margin-top: $v;
+  }
+}
+
+.feature {
+  @include container;
+
+  padding: ($v * 4) 0;
+
+  &__header {
+    margin-bottom: $v;
+  }
+
+  &__description {
+    color: $color-gray-a0;
+  }
+
+  & + & {
+    border-top: 1px solid $color-true-gray-an2;
+    // padding-top:
   }
 }

@@ -27,6 +27,20 @@ h1 {
   font-size: $font-size-6;
 }
 
-p + p {
-  margin-top: $v;
+h2 {
+  font-size: $font-size-5;
+}
+
+h3 {
+  font-size: $font-size-3;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: $v;
+}
+
+ul, ol {
+  margin-left: $v * 2;
 }

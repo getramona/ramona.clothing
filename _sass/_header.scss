@@ -1,13 +1,17 @@
 .header {
-  background: $color-gray-an3;
-  padding: $v 0;
+  &__row {
+    border-bottom: 1px solid $color-true-gray-an2;
+    padding: $v 0;
+  }
 
   &__logo {
-    @include span(3 of 12);
+    // @include span(3 of 12);
 
+    display: inline-block;
     color: $color-text;
     font-weight: $font-weight-bold;
-    font-size: $font-size-2;
+    font-size: $font-size-1;
+    margin-right: $v;
 
     &:hover {
       color: $color-magenta;
@@ -15,7 +19,7 @@
   }
 
   nav {
-    @include span(last 9 of 12);
+    // @include span(last 9 of 12);
 
     font-size: $font-size-n1;
   }
