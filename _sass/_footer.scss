@@ -6,6 +6,11 @@
   padding-top: $v;
   margin-bottom: $v;
 
+  @media (max-width: $max-width) {
+    padding-left: $v / 2;
+    padding-right: $v / 2;
+  }
+
   a {
     opacity: 0.5;
 

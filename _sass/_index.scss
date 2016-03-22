@@ -11,6 +11,10 @@
     color: $color-white;
     padding-bottom: $v * 6;
     padding-top: $v * 6;
+
+    @media (max-width: $max-width) {
+      padding: ($v * 3) ($v / 2);
+    }
   }
 
   p + p {
@@ -21,7 +25,11 @@
 .feature {
   @include container;
 
-  padding: ($v * 4) 0;
+  padding: ($v * 4) ($v / 2);
+
+  @media (max-width: $max-width) {
+    padding: ($v * 2) ($v);
+  }
 
   &__header {
     margin-bottom: $v;

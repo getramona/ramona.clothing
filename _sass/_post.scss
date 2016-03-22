@@ -1,10 +1,16 @@
 .post {
   @include container;
 
-  padding: ($v * 3) 0;
+  @media (max-width: $max-width) {
+    padding: $v ($v / 2);
+  }
 
   &__sidebar {
     @include span(4 of 12);
+
+    @media (max-width: $max-width) {
+      @include span(last 12 of 12);
+    }
   }
 
   &__title {
@@ -24,6 +30,10 @@
   &__date {
     color: $color-gray-an1;
     font-size: $font-size-n1;
+
+    @media (max-width: $max-width) {
+      display: none;
+    }
   }
 
   &__content {
@@ -33,6 +43,10 @@
 
     p {
       margin-bottom: $v;
+    }
+
+    @media (max-width: $max-width) {
+      @include span(last 12 of 12);
     }
   }
 

@@ -5,6 +5,16 @@
 
   &--left {
     @include span(6 of 12);
+
+    @media (max-width: $max-width) {
+      @include span(last 12 of 12);
+
+      // padding: 0 ($v / 2)
+
+      ul {
+        float: right;
+      }
+    }
   }
 
   &--right {

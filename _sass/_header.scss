@@ -1,7 +1,14 @@
 .header {
+
   &__row {
     border-bottom: 1px solid $color-true-gray-an2;
     padding: $v 0;
+    height: $font-size-1;
+
+    @media (max-width: $max-width) {
+      padding-left: $v / 2;
+      padding-right: $v / 2;
+    }
   }
 
   &__logo {

@@ -10,6 +10,12 @@ $susy: (
   column-width: $column-width
 );
 
-.row {
+@mixin row() {
   @include container;
+
+  padding: 0 ($v / 2);
+}
+
+.row {
+  @include row;
 }
