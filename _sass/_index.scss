@@ -12,7 +12,7 @@
     padding-bottom: $v * 6;
     padding-top: $v * 6;
 
-    @media (max-width: $max-width) {
+    @media (max-width: $max-width-narrow) {
       padding: ($v * 3) ($v / 2);
     }
   }
@@ -27,7 +27,7 @@
 
   padding: ($v * 4) ($v / 2);
 
-  @media (max-width: $max-width) {
+  @media (max-width: $max-width-narrow) {
     padding: ($v * 2) ($v);
   }
 

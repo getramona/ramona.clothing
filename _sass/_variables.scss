@@ -52,4 +52,5 @@ $color-true-gray-an2: rgba(desaturate($color-navy, 100%), 0.1);
 $color-true-gray-an3: rgba(desaturate($color-navy, 100%), 0.05);
 $color-true-gray-an4: rgba(desaturate($color-navy, 100%), 0.03333);
 
-$max-width: 35rem;
+$max-width-narrow: 35em;
+$max-width-wide: 60em;

@@ -6,7 +6,7 @@
   &--left {
     @include span(6 of 12);
 
-    @media (max-width: $max-width) {
+    @media (max-width: $max-width-narrow) {
       @include span(last 12 of 12);
 
       // padding: 0 ($v / 2)

@@ -1,14 +1,23 @@
 .post {
   @include container;
 
-  @media (max-width: $max-width) {
+  box-sizing: border-box;
+  padding-bottom: $v;
+  padding-top: ($v * 2);
+
+  @media (max-width: $max-width-narrow) {
     padding: $v ($v / 2);
+  }
+
+  @media (max-width: $max-width-wide) {
+    padding-left: ($v / 2);
+    padding-right: ($v / 2);
   }
 
   &__sidebar {
     @include span(4 of 12);
 
-    @media (max-width: $max-width) {
+    @media (max-width: $max-width-narrow) {
       @include span(last 12 of 12);
     }
   }
@@ -31,7 +40,7 @@
     color: $color-gray-an1;
     font-size: $font-size-n1;
 
-    @media (max-width: $max-width) {
+    @media (max-width: $max-width-narrow) {
       display: none;
     }
   }
@@ -45,7 +54,7 @@
       margin-bottom: $v;
     }
 
-    @media (max-width: $max-width) {
+    @media (max-width: $max-width-narrow) {
       @include span(last 12 of 12);
     }
   }

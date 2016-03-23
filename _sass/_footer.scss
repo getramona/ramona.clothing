@@ -6,7 +6,7 @@
   padding-top: $v;
   margin-bottom: $v;
 
-  @media (max-width: $max-width) {
+  @media (max-width: $max-width-wide) {
     padding-left: $v / 2;
     padding-right: $v / 2;
   }
