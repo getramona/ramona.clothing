@@ -17,10 +17,10 @@ We are have been busy the past month, which is a reason we have been slow to upd
 
 Here are some images of what we have been working on:
 
-![Screen Shot 2016-04-10 at 2.39.29 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.39.29%20PM.png)
+[![Screen Shot 2016-04-10 at 2.39.29 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.39.29%20PM.png)](http://ramona.clothing/uploads/Screen%20Shot%202016-04-10%20at%202.39.29%20PM.png)
 
-![Screen Shot 2016-04-10 at 1.26.26 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%201.26.26%20PM.png)
+[![Screen Shot 2016-04-10 at 1.26.26 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%201.26.26%20PM.png)](http://ramona.clothing/uploads/Screen%20Shot%202016-04-10%20at%201.26.26%20PM.png)
 
-![Screen Shot 2016-04-10 at 2.39.07 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.39.07%20PM.png)
+[![Screen Shot 2016-04-10 at 2.39.07 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.39.07%20PM.png)](http://ramona.clothing/uploads/Screen%20Shot%202016-04-10%20at%202.39.07%20PM.png)
 
-![Screen Shot 2016-04-10 at 2.38.57 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.38.57%20PM.png)
+[![Screen Shot 2016-04-10 at 2.38.57 PM.png](/uploads/Screen%20Shot%202016-04-10%20at%202.38.57%20PM.png)](http://ramona.clothing/uploads/Screen%20Shot%202016-04-10%20at%202.38.57%20PM.png)
