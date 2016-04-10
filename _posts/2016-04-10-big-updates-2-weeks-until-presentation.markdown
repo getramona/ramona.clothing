@@ -4,13 +4,19 @@ date: 2016-04-10 14:31:00 -04:00
 Field name: 
 ---
 
-What we have been working on: 
-*Adjusting logo
-*Website Layout wire-frames
-*Creating business plan
-*Mock up marketing campaign
-*Creating presentation 
-*Website functionality
+What we have been working on:
+ 
+Adjusting logo
+
+Website Layout wire-frames
+
+Creating business plan
+
+Mock up marketing campaign
+
+Creating presentation
+
+Website functionality
 
 We are have been busy the past month, which is a reason we have been slow to update our journals. With just a few weeks until we officially show our product to the world we are working to create the best possible site and future for this product. 
 
