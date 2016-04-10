@@ -780,6 +780,7 @@ ul, ol { margin-left: 3.25rem; }
 @media (max-width: 35em) { .post__date { display: none; } }
 .post__content { width: 66.10169%; float: right; margin-right: 0; color: rgba(45, 65, 84, 0.9); }
 .post__content p { margin-bottom: 1.625rem; }
+.post__content ul { margin-bottom: 1.625rem; }
 @media (max-width: 35em) { .post__content { width: 100%; float: right; margin-right: 0; } }
 .post + .post { border-top: 1px solid rgba(45, 65, 84, 0.1); }
 
