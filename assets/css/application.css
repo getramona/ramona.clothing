@@ -738,14 +738,14 @@ img { display: block; max-width: 100%; margin-bottom: 1.625rem; }
 ul, ol { margin-left: 3.25rem; }
 
 .header__row { border-bottom: 1px solid rgba(65, 65, 65, 0.1); padding: 1.625rem 0; height: 1.15em; }
-@media (max-width: 35rem) { .header__row { padding-left: 0.8125rem; padding-right: 0.8125rem; } }
+@media (max-width: 60em) { .header__row { padding-left: 0.8125rem; padding-right: 0.8125rem; } }
 .header__logo { display: inline-block; color: #2d4154; font-weight: 700; font-size: 1.15em; margin-right: 1.625rem; }
 .header__logo:hover { color: #D6457F; }
 .header nav { font-size: 0.9em; }
 
 .nav { display: inline-block; height: 1.15em; line-height: 1.15em; }
 .nav--left { width: 49.15254%; float: left; margin-right: 1.69492%; }
-@media (max-width: 35rem) { .nav--left { width: 100%; float: right; margin-right: 0; }
+@media (max-width: 35em) { .nav--left { width: 100%; float: right; margin-right: 0; }
   .nav--left ul { float: right; } }
 .nav--right { width: 49.15254%; float: right; margin-right: 0; position: relative; text-align: right; top: 1px; }
 .nav__list { display: inline-block; margin-left: 0; }
@@ -757,29 +757,30 @@ ul, ol { margin-left: 3.25rem; }
 .index { text-align: center; }
 .index h1 { margin-bottom: 1.625rem; }
 .index__hero { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/uploads/hero.jpeg"); background-size: cover; color: #FFF; padding-bottom: 9.75rem; padding-top: 9.75rem; }
-@media (max-width: 35rem) { .index__hero { padding: 4.875rem 0.8125rem; } }
+@media (max-width: 35em) { .index__hero { padding: 4.875rem 0.8125rem; } }
 .index p + p { margin-top: 1.625rem; }
 
 .feature { max-width: 59em; margin-left: auto; margin-right: auto; padding: 6.5rem 0.8125rem; }
 .feature:after { content: " "; display: block; clear: both; }
-@media (max-width: 35rem) { .feature { padding: 3.25rem 1.625rem; } }
+@media (max-width: 35em) { .feature { padding: 3.25rem 1.625rem; } }
 .feature__header { margin-bottom: 1.625rem; }
 .feature__description { color: rgba(45, 65, 84, 0.4); }
 .feature + .feature { border-top: 1px solid rgba(65, 65, 65, 0.1); }
 
-.post { max-width: 59em; margin-left: auto; margin-right: auto; }
+.post { max-width: 59em; margin-left: auto; margin-right: auto; box-sizing: border-box; padding-bottom: 1.625rem; padding-top: 3.25rem; }
 .post:after { content: " "; display: block; clear: both; }
-@media (max-width: 35rem) { .post { padding: 1.625rem 0.8125rem; } }
+@media (max-width: 35em) { .post { padding: 1.625rem 0.8125rem; } }
+@media (max-width: 60em) { .post { padding-left: 0.8125rem; padding-right: 0.8125rem; } }
 .post__sidebar { width: 32.20339%; float: left; margin-right: 1.69492%; }
-@media (max-width: 35rem) { .post__sidebar { width: 100%; float: right; margin-right: 0; } }
+@media (max-width: 35em) { .post__sidebar { width: 100%; float: right; margin-right: 0; } }
 .post__title { font-size: 1.3em; font-weight: 500; margin-bottom: 1.625rem; }
 .post__title a { color: #2d4154; }
 .post__title a:hover { color: #D6457F; }
 .post__date { color: rgba(45, 65, 84, 0.2); font-size: 0.9em; }
-@media (max-width: 35rem) { .post__date { display: none; } }
+@media (max-width: 35em) { .post__date { display: none; } }
 .post__content { width: 66.10169%; float: right; margin-right: 0; color: rgba(45, 65, 84, 0.9); }
 .post__content p { margin-bottom: 1.625rem; }
-@media (max-width: 35rem) { .post__content { width: 100%; float: right; margin-right: 0; } }
+@media (max-width: 35em) { .post__content { width: 100%; float: right; margin-right: 0; } }
 .post + .post { border-top: 1px solid rgba(45, 65, 84, 0.1); }
 
 .page { max-width: 59em; margin-left: auto; margin-right: auto; padding: 4.875rem 0; }
@@ -789,7 +790,7 @@ ul, ol { margin-left: 3.25rem; }
 
 .footer { max-width: 59em; margin-left: auto; margin-right: auto; border-top: 1px solid rgba(65, 65, 65, 0.1); color: rgba(45, 65, 84, 0.4); padding-top: 1.625rem; margin-bottom: 1.625rem; }
 .footer:after { content: " "; display: block; clear: both; }
-@media (max-width: 35rem) { .footer { padding-left: 0.8125rem; padding-right: 0.8125rem; } }
+@media (max-width: 60em) { .footer { padding-left: 0.8125rem; padding-right: 0.8125rem; } }
 .footer a { opacity: 0.5; }
 .footer a:hover { opacity: 1; }
 
