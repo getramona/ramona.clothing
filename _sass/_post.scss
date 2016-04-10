@@ -54,6 +54,10 @@
       margin-bottom: $v;
     }
 
+    ul {
+      margin-bottom: $v;
+    }
+
     @media (max-width: $max-width-narrow) {
       @include span(last 12 of 12);
     }
